@@ -24,9 +24,9 @@
 
 **Assignment operators** assign values to JavaScript variables.
 
-"=" - **x = y**
+"=" - x = y
 
-"+=" - **x += y**
+"+=" - x += y
 
 "-=" x -= y
 
@@ -91,3 +91,29 @@ Any numeric operand in the operation is converted into a 32 bit number. The resu
 ">>" - right shift
 
 ">>>" - unsigned right shift
+
+---
+
+<h1 align="center">Dynamic Typing</h1>
+
+**JS** dynamically typed languages - a variable of the same name can be used to hold different data types.
+
+When you declare a variable, you do not need to specify what type this variable is. Javascript engine infers what type this variable is based on the value assigned to at run time.
+
+---
+
+## Example:
+
+var x = "I am a string";
+
+console.log(x);
+
+var x = 5;
+
+console.log(x);
+
+**The OUTPUT will be:**
+
+I am a string
+
+5
