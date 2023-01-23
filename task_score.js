@@ -5,6 +5,12 @@ let average = (intr + git + js) / 3; //средний балл за модули
 
 console.log(`Average points is ${average}`);
 
-let studentName = "N.Melihova"; //имя студента
+let firstName = "Natalia"; //имя студента
+let surname = "Melihova";
 
-console.log(`Average points of ${studentName.slice(2, 3)}. is ${average}.`);
+console.log(
+  `Average points of ${firstName.slice(0, 1)}.${surname.slice(
+    0,
+    1
+  )}. is ${average}.`
+);
