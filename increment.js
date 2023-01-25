@@ -12,6 +12,12 @@ function increment(x) { //так как ++ стоит до  'x, то сначл�
 console.log(increment(20));
 console.log(increment(14));
 
+function inc(z) {
+  console.log(++d)
+}
+
+inc(5)
+
 function decrement(y) {
   return (y = --y);
 }
