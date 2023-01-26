@@ -26,7 +26,7 @@ let bestScore = [];
 for (let player of players) {
   bestScore.push(player.scorePoints);
 }
-console.log(Math.max(...bestScore));
+console.log('Best score is ' + Math.max(...bestScore));
 
 let bestPlayer;
 for (let player of players) {
