@@ -24,9 +24,9 @@ const players = [
 let bestScore = [];
 
 for (let player of players) {
-  bestScore.push(player.scorePoints);
+    bestScore.push(player.scorePoints);
 }
-console.log('Best score is ' + Math.max(...bestScore));
+//console.log("Best score is " + Math.max(...bestScore));
 
 let bestPlayer;
 for (let player of players) {
@@ -34,4 +34,6 @@ for (let player of players) {
     bestPlayer = player;
   }
 }
-console.log('Best player is', bestPlayer.name);
+//console.log('Best player is', bestPlayer.name);
+
+console.log("Best score is " + Math.max(...bestScore) + ' and the namw is ' + bestPlayer.name);
