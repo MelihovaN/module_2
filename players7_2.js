@@ -34,4 +34,4 @@ for (let player of players) {
     bestPlayer = player;
   }
 }
-console.log(bestPlayer.name);
+console.log('Best player is', bestPlayer.name);
