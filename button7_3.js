@@ -25,4 +25,4 @@ console.log(sendButton);
 // }
 // let sendButton = new button("click", "10cm", "40cm", "green");
 
-// console.log(propButton);
+// console.log(onClick);
