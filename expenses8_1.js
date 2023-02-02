@@ -11,8 +11,18 @@ let expenses = [
 ];
 
 expenses.forEach((exp) => {
+  let sum = 0;
   exp.yearlyExp.forEach((value) => {
-      if (value > 1000) console.log(`расходы: ${value}`);
-     });
-    
+    if (value > 1000) {
+      sum += value;
+    }
+  });
+  console.log(`Yearly expenses are : ${sum}`);
+
+  function test() {
+    if (sum === 37190 || sum === 139200 || sum === 24509) {
+      console.log("true");
+    }
+  }
+  test();
 });
