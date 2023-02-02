@@ -13,7 +13,6 @@ let expenses = [
 expenses.forEach((exp) => {
   exp.yearlyExp.forEach((value) => {
       if (value > 1000) console.log(`расходы: ${value}`);
-      let totalScore = 0;
      });
     
 });
